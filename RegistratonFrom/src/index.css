@@ -1,0 +1,77 @@
+body{
+  background-color: #000;
+}
+
+.maindiv{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+align-items: center;
+
+}
+.Registraton{
+  width: 50%;
+  min-height: 500px;
+  border: 1px solid #000;
+  margin-top: 100px;
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.Registraton h1{
+  color: blueviolet;
+  text-align: center;
+}
+
+.Registraton label{
+  margin-left: 20%;
+  margin-top: 10px;
+  font-size: large;
+  font-weight: bold;
+}
+.Registraton input[type=text]
+{
+  margin-left: 20%;
+  width: 70%;
+  padding: 5px;
+}
+
+.Registraton input[type=Email]
+{
+  margin-left: 20%;
+  width: 70%;
+  padding: 5px;
+}
+
+.Registraton select{
+  margin-left: 20%;
+  width: 70%;
+  padding: 5px;
+}
+
+.Registraton input[type=button]
+{
+  margin-left: 20%;
+  width: 72%;
+  padding: 5px;
+  margin-top: 30px;
+  background-color: rgb(15, 242, 15);
+
+}
+
+.Registraton p{
+  margin-left: 45%;
+  width: 70%;
+  padding: 5px;
+  font-size: large;
+}
+
+.Registraton a{
+  text-decoration: none;
+}
