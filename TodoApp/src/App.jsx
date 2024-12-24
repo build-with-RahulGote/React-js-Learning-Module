@@ -29,6 +29,10 @@ Addtask=()=>
   }
 };
 
+deletetask=()=>{
+  
+}
+
 
   render()
   {
@@ -42,19 +46,27 @@ Addtask=()=>
 
         
 
-        <div className="result" name="result"  >
-      <ul style={{marginTop:"30px"}}>
-        
-        {this.state.result.map((task,index)=>(
-          <li key={index}>
-            {task}
-           
-          </li>
-        ))}
-      </ul>
-      
-    
-      </div>
+        <table className="result" style={{marginTop:"20px",width:"80%", border:"1px solid black"}}>
+          <thead>
+            <tr>
+              <th>Task</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            {this.state.result.map((task,index)=>(
+              <tr key={index} >
+
+                <td style={{paddingLeft: "120px"}}>{task}</td> 
+
+                <td style={{ paddingLeft: "120px"}}><button style={{backgroundColor:"red",color:"white"}}>Delete</button>
+                </td>
+
+              </tr>
+            ))}
+          </tbody>
+        </table>
       </div>
 
       
